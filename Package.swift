@@ -6,9 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MMWormhole",
     platforms: [
-        .iOS(.v9),
-        .macOS(.v10_10),
-        .watchOS(.v2),
+        .macOS(.v10_10)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
